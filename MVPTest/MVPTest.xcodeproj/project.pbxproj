@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DD6F0AF074FC2C7C322E24F /* Pods_MVPTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FB39A2528BEC67D22BEF14 /* Pods_MVPTest.framework */; };
 		EEC6C855219D788B005EE211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C854219D788B005EE211 /* AppDelegate.swift */; };
-		EEC6C857219D788B005EE211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C856219D788B005EE211 /* ViewController.swift */; };
 		EEC6C85A219D788B005EE211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC6C858219D788B005EE211 /* Main.storyboard */; };
 		EEC6C85C219D788B005EE211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC6C85B219D788B005EE211 /* Assets.xcassets */; };
 		EEC6C85F219D788B005EE211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC6C85D219D788B005EE211 /* LaunchScreen.storyboard */; };
+		EEC6C86A219D78F7005EE211 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C869219D78F7005EE211 /* LoginViewController.swift */; };
+		EEC6C86C219D79CC005EE211 /* VCLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C86B219D79CC005EE211 /* VCLoginPresenter.swift */; };
+		EEC6C86E219D7AFC005EE211 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEC6C86D219D7AFC005EE211 /* GoogleService-Info.plist */; };
+		EEC6C871219D7C06005EE211 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C870219D7C06005EE211 /* UserInfo.swift */; };
+		EEC6C898219D8B52005EE211 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C897219D8B52005EE211 /* GeneralViewController.swift */; };
+		EEC6C89E219D8B87005EE211 /* FirebaseCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C899219D8B87005EE211 /* FirebaseCustom.swift */; };
+		EEC6C89F219D8B87005EE211 /* URLGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C89A219D8B87005EE211 /* URLGetter.swift */; };
+		EEC6C8A0219D8B87005EE211 /* MyCustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C89B219D8B87005EE211 /* MyCustomAlert.swift */; };
+		EEC6C8A1219D8B87005EE211 /* AdjustingTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C89C219D8B87005EE211 /* AdjustingTF.swift */; };
+		EEC6C8A2219D8B87005EE211 /* TFAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C89D219D8B87005EE211 /* TFAccessory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12511B26E2A101CFA3E759D1 /* Pods-MVPTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPTest/Pods-MVPTest.release.xcconfig"; sourceTree = "<group>"; };
+		58FB39A2528BEC67D22BEF14 /* Pods_MVPTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83983264A0D9559DCB98B9E /* Pods-MVPTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPTest/Pods-MVPTest.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC6C851219D788B005EE211 /* MVPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC6C854219D788B005EE211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEC6C856219D788B005EE211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEC6C859219D788B005EE211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC6C85B219D788B005EE211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC6C85E219D788B005EE211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC6C860219D788B005EE211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC6C869219D78F7005EE211 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EEC6C86B219D79CC005EE211 /* VCLoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLoginPresenter.swift; sourceTree = "<group>"; };
+		EEC6C86D219D7AFC005EE211 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEC6C870219D7C06005EE211 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		EEC6C897219D8B52005EE211 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		EEC6C899219D8B87005EE211 /* FirebaseCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseCustom.swift; sourceTree = "<group>"; };
+		EEC6C89A219D8B87005EE211 /* URLGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLGetter.swift; sourceTree = "<group>"; };
+		EEC6C89B219D8B87005EE211 /* MyCustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomAlert.swift; sourceTree = "<group>"; };
+		EEC6C89C219D8B87005EE211 /* AdjustingTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustingTF.swift; sourceTree = "<group>"; };
+		EEC6C89D219D8B87005EE211 /* TFAccessory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFAccessory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD6F0AF074FC2C7C322E24F /* Pods_MVPTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACCE0C5555BF96D0AF8D51C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58FB39A2528BEC67D22BEF14 /* Pods_MVPTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEC6C848219D788B005EE211 = {
 			isa = PBXGroup;
 			children = (
 				EEC6C853219D788B005EE211 /* MVPTest */,
 				EEC6C852219D788B005EE211 /* Products */,
+				F1325387571874D4E4C30524 /* Pods */,
+				ACCE0C5555BF96D0AF8D51C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,80 @@
 		EEC6C853219D788B005EE211 /* MVPTest */ = {
 			isa = PBXGroup;
 			children = (
+				EEC6C8A3219D8C04005EE211 /* Custom */,
+				EEC6C892219D8589005EE211 /* Services */,
+				EEC6C86F219D7BF6005EE211 /* DataModel */,
+				EEC6C868219D78D8005EE211 /* Presentor */,
+				EEC6C866219D78C5005EE211 /* ViewControllers */,
 				EEC6C854219D788B005EE211 /* AppDelegate.swift */,
-				EEC6C856219D788B005EE211 /* ViewController.swift */,
 				EEC6C858219D788B005EE211 /* Main.storyboard */,
 				EEC6C85B219D788B005EE211 /* Assets.xcassets */,
 				EEC6C85D219D788B005EE211 /* LaunchScreen.storyboard */,
 				EEC6C860219D788B005EE211 /* Info.plist */,
+				EEC6C86D219D7AFC005EE211 /* GoogleService-Info.plist */,
 			);
 			path = MVPTest;
+			sourceTree = "<group>";
+		};
+		EEC6C866219D78C5005EE211 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6C869219D78F7005EE211 /* LoginViewController.swift */,
+				EEC6C897219D8B52005EE211 /* GeneralViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EEC6C868219D78D8005EE211 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6C86B219D79CC005EE211 /* VCLoginPresenter.swift */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		EEC6C86F219D7BF6005EE211 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6C870219D7C06005EE211 /* UserInfo.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		EEC6C892219D8589005EE211 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6C899219D8B87005EE211 /* FirebaseCustom.swift */,
+				EEC6C89B219D8B87005EE211 /* MyCustomAlert.swift */,
+				EEC6C89D219D8B87005EE211 /* TFAccessory.swift */,
+				EEC6C89A219D8B87005EE211 /* URLGetter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EEC6C8A3219D8C04005EE211 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6C8A4219D8C0C005EE211 /* TextField */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EEC6C8A4219D8C0C005EE211 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6C89C219D8B87005EE211 /* AdjustingTF.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		F1325387571874D4E4C30524 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E83983264A0D9559DCB98B9E /* Pods-MVPTest.debug.xcconfig */,
+				12511B26E2A101CFA3E759D1 /* Pods-MVPTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEC6C863219D788B005EE211 /* Build configuration list for PBXNativeTarget "MVPTest" */;
 			buildPhases = (
+				AF42E7FC97AE0DC83417FAEE /* [CP] Check Pods Manifest.lock */,
 				EEC6C84D219D788B005EE211 /* Sources */,
 				EEC6C84E219D788B005EE211 /* Frameworks */,
 				EEC6C84F219D788B005EE211 /* Resources */,
+				A574B74CCF0370238A6D3A42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC6C85F219D788B005EE211 /* LaunchScreen.storyboard in Resources */,
+				EEC6C86E219D7AFC005EE211 /* GoogleService-Info.plist in Resources */,
 				EEC6C85C219D788B005EE211 /* Assets.xcassets in Resources */,
 				EEC6C85A219D788B005EE211 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +232,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A574B74CCF0370238A6D3A42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVPTest/Pods-MVPTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPTest/Pods-MVPTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF42E7FC97AE0DC83417FAEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVPTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEC6C84D219D788B005EE211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC6C857219D788B005EE211 /* ViewController.swift in Sources */,
+				EEC6C86A219D78F7005EE211 /* LoginViewController.swift in Sources */,
+				EEC6C89E219D8B87005EE211 /* FirebaseCustom.swift in Sources */,
+				EEC6C8A2219D8B87005EE211 /* TFAccessory.swift in Sources */,
+				EEC6C8A0219D8B87005EE211 /* MyCustomAlert.swift in Sources */,
+				EEC6C8A1219D8B87005EE211 /* AdjustingTF.swift in Sources */,
+				EEC6C898219D8B52005EE211 /* GeneralViewController.swift in Sources */,
 				EEC6C855219D788B005EE211 /* AppDelegate.swift in Sources */,
+				EEC6C89F219D8B87005EE211 /* URLGetter.swift in Sources */,
+				EEC6C871219D7C06005EE211 /* UserInfo.swift in Sources */,
+				EEC6C86C219D79CC005EE211 /* VCLoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +447,21 @@
 		};
 		EEC6C864219D788B005EE211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83983264A0D9559DCB98B9E /* Pods-MVPTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MVPTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ljbdelacruz.MVPTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljbdelacruz.MVPTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +470,21 @@
 		};
 		EEC6C865219D788B005EE211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12511B26E2A101CFA3E759D1 /* Pods-MVPTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MVPTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ljbdelacruz.MVPTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljbdelacruz.MVPTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
