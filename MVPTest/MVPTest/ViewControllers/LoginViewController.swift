@@ -25,6 +25,8 @@ class LoginViewController: GeneralViewController {
 }
 //MARK: -VCLoginDelegate func
 extension LoginViewController:VCLoginDelegate{
+    //based on what i understand viewController will only handle the view part separating the logic and into
+    //the presenter and uses protocols to communicate to viewController for updates on the process in the presenter
     func failedLogin(message: String) {
         //failed login
     }
