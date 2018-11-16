@@ -19,11 +19,7 @@ class TFAccessory{
         self.TFSetup(view:view)
     }
     func TFSetup(view:UIView){
-        DispatchQueue.global(qos:.userInitiated).async {
-            [weak self] in
-        }
-        
-        self.navbarAccessory = UINavigationBar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 44))
+        self.navbarAccessory = UINavigationBar(frame: CGRect(x: 0, y: 390, width: view.frame.size.width, height: 44))
         navbarAccessory!.barStyle = UIBarStyle.blackTranslucent;
         navbarAccessory!.backgroundColor = UIColor.cyan;
         navbarAccessory!.alpha = 0.9;

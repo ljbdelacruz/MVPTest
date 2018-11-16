@@ -22,6 +22,10 @@
 		EEC6C8A0219D8B87005EE211 /* MyCustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C89B219D8B87005EE211 /* MyCustomAlert.swift */; };
 		EEC6C8A1219D8B87005EE211 /* AdjustingTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C89C219D8B87005EE211 /* AdjustingTF.swift */; };
 		EEC6C8A2219D8B87005EE211 /* TFAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C89D219D8B87005EE211 /* TFAccessory.swift */; };
+		EEC6C8A6219D9DFC005EE211 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C8A5219D9DFC005EE211 /* DashboardViewController.swift */; };
+		EEC6C8A9219DA6AE005EE211 /* WeatherDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C8A8219DA6AE005EE211 /* WeatherDataService.swift */; };
+		EEC6C8AB219E23A8005EE211 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C8AA219E23A8005EE211 /* UserService.swift */; };
+		EEC6C8AD219E248D005EE211 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6C8AC219E248D005EE211 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		EEC6C89B219D8B87005EE211 /* MyCustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomAlert.swift; sourceTree = "<group>"; };
 		EEC6C89C219D8B87005EE211 /* AdjustingTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustingTF.swift; sourceTree = "<group>"; };
 		EEC6C89D219D8B87005EE211 /* TFAccessory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFAccessory.swift; sourceTree = "<group>"; };
+		EEC6C8A5219D9DFC005EE211 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		EEC6C8A8219DA6AE005EE211 /* WeatherDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataService.swift; sourceTree = "<group>"; };
+		EEC6C8AA219E23A8005EE211 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		EEC6C8AC219E248D005EE211 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 		EEC6C853219D788B005EE211 /* MVPTest */ = {
 			isa = PBXGroup;
 			children = (
+				EEC6C8A7219DA69A005EE211 /* Networking */,
 				EEC6C8A3219D8C04005EE211 /* Custom */,
 				EEC6C892219D8589005EE211 /* Services */,
 				EEC6C86F219D7BF6005EE211 /* DataModel */,
@@ -107,6 +116,7 @@
 			children = (
 				EEC6C869219D78F7005EE211 /* LoginViewController.swift */,
 				EEC6C897219D8B52005EE211 /* GeneralViewController.swift */,
+				EEC6C8A5219D9DFC005EE211 /* DashboardViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -123,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				EEC6C870219D7C06005EE211 /* UserInfo.swift */,
+				EEC6C8AC219E248D005EE211 /* Users.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -152,6 +163,15 @@
 				EEC6C89C219D8B87005EE211 /* AdjustingTF.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		EEC6C8A7219DA69A005EE211 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6C8A8219DA6AE005EE211 /* WeatherDataService.swift */,
+				EEC6C8AA219E23A8005EE211 /* UserService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		F1325387571874D4E4C30524 /* Pods */ = {
@@ -242,8 +262,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MVPTest/Pods-MVPTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -253,8 +278,13 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -300,9 +330,13 @@
 				EEC6C8A0219D8B87005EE211 /* MyCustomAlert.swift in Sources */,
 				EEC6C8A1219D8B87005EE211 /* AdjustingTF.swift in Sources */,
 				EEC6C898219D8B52005EE211 /* GeneralViewController.swift in Sources */,
+				EEC6C8AD219E248D005EE211 /* Users.swift in Sources */,
+				EEC6C8AB219E23A8005EE211 /* UserService.swift in Sources */,
 				EEC6C855219D788B005EE211 /* AppDelegate.swift in Sources */,
 				EEC6C89F219D8B87005EE211 /* URLGetter.swift in Sources */,
+				EEC6C8A6219D9DFC005EE211 /* DashboardViewController.swift in Sources */,
 				EEC6C871219D7C06005EE211 /* UserInfo.swift in Sources */,
+				EEC6C8A9219DA6AE005EE211 /* WeatherDataService.swift in Sources */,
 				EEC6C86C219D79CC005EE211 /* VCLoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +491,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = MVPTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +515,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = MVPTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
